@@ -1,0 +1,7 @@
+{
+  "pyyaml": {
+    "CVE-2017-18342": ["yaml.load", "yaml.load_all"],
+    "CVE-2020-1747": ["yaml.load", "yaml.load_all", "yaml.full_load", "yaml.full_load_all"],
+    "CVE-2020-14343": ["yaml.load", "yaml.load_all", "yaml.full_load", "yaml.full_load_all"]
+  }
+}

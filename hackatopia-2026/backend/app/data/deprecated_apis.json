@@ -1,0 +1,9 @@
+{
+  "cgi.escape": "Removed in Python 3.8. Use html.escape.",
+  "time.clock": "Removed in Python 3.8. Use time.perf_counter.",
+  "inspect.getargspec": "Removed in Python 3.11. Use inspect.getfullargspec or inspect.signature.",
+  "base64.encodestring": "Removed in Python 3.9. Use base64.encodebytes.",
+  "base64.decodestring": "Removed in Python 3.9. Use base64.decodebytes.",
+  "ssl.wrap_socket": "Removed in Python 3.12. Use ssl.SSLContext.wrap_socket.",
+  "yaml.load": "Calling yaml.load without an explicit safe Loader can execute arbitrary code and fails on PyYAML 6. Use yaml.safe_load."
+}

@@ -1,0 +1,24 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sse-starlette>=2.1
+pydantic>=2.8
+python-dotenv>=1.0
+httpx>=0.27
+langgraph>=1.0
+langchain>=1.0
+packaging>=24.0
+cvss>=3.2
+pipdeptree>=2.23
+psycopg[binary]>=3.2
+psycopg_pool>=3.2
+langgraph-checkpoint-postgres>=3.0
+langgraph-checkpoint-sqlite>=3.0
+langsmith>=0.4
+cryptography>=42
+pytest>=8.0
+pytest-asyncio>=0.23
+# LLM providers, selected by LLM_MODEL (init_chat_model, NFR-7):
+langchain-google-genai
+langchain-ollama
+langchain-anthropic
+# langchain-openai
